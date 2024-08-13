@@ -1,0 +1,49 @@
+format: jb-book
+root: readme.md
+parts:
+
+#########################################################################################################
+  - caption: ProjectUnet
+    chapters:
+    
+    - file: 1_unetSmall/readme.md
+    - file: 1_unetSmall/db/readme.md
+
+    ## network
+    - file: 1_unetSmall/networks/small1.md
+      sections:
+      - file: 1_unetSmall/networks/unetFlow.md
+      - file: 1_unetSmall/networks/modelSizeParams.md
+      - file: 1_unetSmall/networks/summary_largeNet.md
+      - file: 1_unetSmall/networks/summary_mysmall.md
+      - file: 1_unetSmall/folding/readme.md
+
+    ## labs
+    - file: 1_unetSmall/results/readme.md
+      sections:
+      - file: 1_unetSmall/code86/run1.ipynb
+      - file: 1_unetSmall/code86/run2.ipynb
+      - file: 1_unetSmall/code86/run3.ipynb
+      - file: 1_unetSmall/code86/run4.ipynb
+      - file: 1_unetSmall/code86/run5.ipynb
+      - file: 1_unetSmall/code86/run6.ipynb
+    
+    ## max
+    - file: 1_unetSmall/4max/readme.md
+      sections:
+      - file: 1_unetSmall/4max/1_train.md
+      - file: 1_unetSmall/4max/2_quant.md
+      - file: 1_unetSmall/4max/3_eval.md
+      - file: 1_unetSmall/4max/4_sample.md
+      - file: 1_unetSmall/4max/5_yml.md
+      - file: 1_unetSmall/4max/6_loader.md
+      - file: 1_unetSmall/4max/7_infer.md
+      - file: 1_unetSmall/4max/8_burn.md
+
+    - file: 1_unetSmall/code86/qNetEval.ipynb
+    - file: 1_unetSmall/results/report.md
+    
+  - caption: ProjectMobile
+    chapters:
+    - file: 2_unetMobile/readme.md
+    - file: 2_unetMobile/combine.md

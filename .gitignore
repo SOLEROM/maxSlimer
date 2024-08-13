@@ -1,0 +1,29 @@
+todo.md
+Report*.html
+
+# Python
+*.ckpt
+*.db
+*.pck
+*.pcl
+*.pkl
+*.pickle
+*.pth
+.ipynb_checkpoints*
+*.npz
+*TMP*.ipynb
+*TMP*.py
+*TEMP*.ipynb
+*TEMP*.py
+
+# TensorBoard
+*tfevents*
+
+*runs/*
+*.pyc
+*.pt
+*.vscode
+*runs
+*.model
+_build
+_build/*
