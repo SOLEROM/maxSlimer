@@ -15,6 +15,9 @@ Report*.html
 *TMP*.py
 *TEMP*.ipynb
 *TEMP*.py
+*.settings*
+*.cproject
+*.project
 
 # TensorBoard
 *tfevents*
@@ -27,3 +30,5 @@ Report*.html
 *.model
 _build
 _build/*
+
+*.o
